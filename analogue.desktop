@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Analogue: A Hate Story
 #Comment=
-Exec=/opt/analogue/Analogue.sh
-Icon=Analogue
+Exec=/usr/bin/env SDL_VIDEO_X11_WMCLASS=analogue /opt/analogue/Analogue.sh
+Icon=analogue
 Terminal=false
 Type=Application
 Categories=Game
